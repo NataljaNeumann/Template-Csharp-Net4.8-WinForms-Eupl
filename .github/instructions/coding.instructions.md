@@ -2,7 +2,7 @@
 applyTo: "**/*.cs"
 ---
 
-<!-- This project is licensed under GPL-2.0-or-later. See ../../LICENSE.TXT for the complete license text. -->
+<!-- This project is licensed under EUPL. See ../../LICENCE.TXT for the complete license text. -->
 
 # General Instructions
 
@@ -46,7 +46,7 @@ Avoid known security issues. Explicitly create tests for testing security, if se
 
 ## Licensing
 
-This project is licensed under GNU GPL version 2 or later (`GPL-2.0-or-later`).
+This project is licensed under EUPL.
 
 Generated or modified source code must remain compatible with the project's license. 
 Preserve existing copyright and license notices. See [`LICENCE.TXT`](../../LICENCE.TXT) for the complete license text.
