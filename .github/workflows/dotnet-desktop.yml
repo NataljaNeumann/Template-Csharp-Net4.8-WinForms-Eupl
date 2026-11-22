@@ -429,7 +429,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          if ('${{ env.APP_NAME }}' == 'Template')
+          if ("${{ env.APP_NAME }}" -eq "Template")
           {
             echo "release_exists=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
           } else
