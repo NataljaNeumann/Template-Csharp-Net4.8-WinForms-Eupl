@@ -453,11 +453,11 @@ jobs:
       #   - target_commitish: Commit SHA or branch to create the release from
       # Threats: If secrets are misconfigured, release may expose sensitive info. If a release already exists, this step will fail unless conditionally skipped as below.
       - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
         if: >-
           ${{ env.APP_NAME }} != 'Template' &&
           steps.check_release.outputs.release_exists == 'false'
+        id: create_release
+        uses: actions/create-release@v1
         with:
           tag_name: ${{ env.APP_NAME }}_v${{ steps.increment.outputs.version }}
           release_name: "Version ${{ steps.increment.outputs.version }}"
