@@ -1,5 +1,5 @@
-# Template-Csharp-Net4.8-WinForms-gnu-gpl2
-This is a template for a multilingual .Net Windows apps based on WinForms, GNU gpl-2.0-or-later, C#
+# Template-Csharp-Net4.8-WinForms-Eupl
+This is a template for a multilingual .Net Windows apps based on WinForms, EU Public Licence (EUPL), C#
 
  - The solution compiles with VS2026 community edition
  - Rename the "Template" folder to the name that you need
