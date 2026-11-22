@@ -118,18 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>672, 367</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Par lietotni</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>648, 349</value>
+    <value>763, 386</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Autortiesības © 2026 NataljaNeumann@gmx.de
+
+Šī programma ir brīvā programmatūra, kas izplatīta saskaņā ar Eiropas Savienības publisko licenci (EUPL). Jūs varat paši modificēt programmatūru saskaņā ar EUPL noteikumiem un kļūt par tās līdzstrādnieku, daloties ar saviem uzlabojumiem projekta ietvaros.
 
 Darba izstrāde turpinās, to nepārtraukti uzlabo daudzi attīstītāji. Tas nav pabeigts darbs, tāpēc tam var piemist trūkumi vai nepilnības, kas ir šāda veida izstrādes sastāvdaļa.
 
@@ -139,5 +135,11 @@ Izņemot tīšu nodarījumu vai fiziskām personām tieši nodarītus kaitējumu
 
 Licencēts saskaņā ar EUPL.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>787, 404</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Par lietotni</value>
   </data>
 </root>

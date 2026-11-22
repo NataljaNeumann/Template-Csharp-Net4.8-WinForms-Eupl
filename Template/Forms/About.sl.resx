@@ -118,26 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>666, 369</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Om appen</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>642, 351</value>
+    <value>806, 355</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
-Upphovsrätt © 2026 NataljaNeumann@gmx.de
+Avtorske pravice © 2026 NataljaNeumann@gmx.de
 
-Verket är ett ännu ej fullbordat verk, som kontinuerligt förbättras av en rad bidragslämnare. Det är inte ett färdigställt verk och kan därför innehålla felaktigheter och programfel, vilket är kännetecknande för denna typ av utveckling.
+Ta program je prosta programska oprema, izdana pod licenco European Union Public Licence (EUPL). V skladu s pogoji licence EUPL lahko programsko opremo sami spreminjate in s tem, ko svoje izboljšave delite s projektom, postanete sodelavec pri njem.
 
-Av ovanstående skäl tillhandahålls verket enligt licensen i ”befintligt skick” och utan någon typ av garanti med avseende på verket, vilket bland annat inbegriper godtagbar kvalitet, lämplighet för ett visst ändamål, frånvaro av defekter och felaktigheter, exakthet, garantier för att andra immaterialrättigheter än upphovsrätt inte kränks.
+Delo se razume kot delo, ki se stalno razvija in ki ga nenehno izboljšujejo številni sodelavci. Ni dokončano delo in lahko zato vsebuje napake ali „hrošče“, ki so povezani s tovrstnim razvojem.
 
-Med undantag för fall av avsiktliga fel eller skador som direkt drabbar fysiska personer, kommer licensgivaren inte i något fall att ansvara för direkt eller indirekt, materiell eller ideell skada av något slag som uppstår på grund av licensen eller användningen av verket, däribland, men inte endast, ersättning för förlorad goodwill, driftstopp, datafel eller störningar, förlust av data eller annan kommersiell skada, oberoende av om licensgivaren underrättats om att sådan skada kan inträffa. Licensgivaren är dock ansvarig enligt lagstiftning om produktansvar i den mån sådan lagstiftning är tillämplig på verket.
+Iz zgoraj navedenih razlogov se delo zagotavlja na podlagi licence po načelu „takšno kot je“ in brez kakršnih koli jamstev glede dela, kar vključuje najmanj tržljivost, ustreznost za določen namen, odsotnost okvar ali napak, natančnost, spoštovanje pravic intelektualne lastnine razen avtorske pravice.
 
-Licensierat enligt EUPL.
+Razen v primerih namerne kršitve ali škode, neposredno povzročene fizičnim osebam, dajalec licence ne bo v nobenem primeru odgovoren za kakršno koli neposredno ali posredno materialno ali moralno škodo, nastalo na podlagi licence ali uporabe dela, med drugim vključno s škodo zaradi izgube dobrega imena, prekinitve dela, okvare ali motnje v delovanju računalnika, izgube podatkov ali kakršne koli poslovne škode, čeprav je bil dajalec licence opozorjen na možnost nastanka takšne škode. Vendar bo dajalec licence odgovoren po zakonskih predpisih o odgovornosti za proizvode, če takšni predpisi veljajo za delo.
+
+Licencirano po EUPL.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>830, 373</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>O aplikaciji</value>
   </data>
 </root>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1041, 510</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Template v0.0
+কপিরাইট © ২০২৬ NataljaNeumann@gmx.de
+
+এই প্রোগ্রামটি একটি মুক্ত সফটওয়্যার, যা ইউরোপীয় ইউনিয়ন পাবলিক লাইসেন্স (EUPL)-এর অধীনে প্রকাশ করা হয়েছে। আপনি EUPL-এর শর্তাবলি মেনে সফটওয়্যারটিতে পরিবর্তন আনতে পারেন এবং আপনার করা উন্নয়নগুলো প্রকল্পের সাথে শেয়ার করার মাধ্যমে একজন অবদানকারী হয়ে উঠতে পারেন।
+
+এই কাজটি একটি চলমান প্রক্রিয়া, যা অসংখ্য অবদানকারীর নিরন্তর প্রচেষ্টায় উন্নত করা হচ্ছে। এটি কোনো চূড়ান্ত বা সম্পন্ন কাজ নয়; তাই এতে এই ধরনের উন্নয়ন প্রক্রিয়ায় স্বাভাবিকভাবেই থাকতে পারে বিভিন্ন ত্রুটি বা ‘বাগ’।
+
+এই কারণে, কাজটি লাইসেন্সের শর্তানুসারে ‘যেমন আছে’ ভিত্তিতে প্রদান করা হয়েছে। এর সাথে কোনো ধরনের নিশ্চয়তা বা ওয়ারেন্টি দেওয়া হয়নি—যার মধ্যে রয়েছে (তবে কেবল এগুলোর মধ্যেই সীমাবদ্ধ নয়) বাণিজ্যিক উপযোগিতা, কোনো নির্দিষ্ট উদ্দেশ্যে ব্যবহারের উপযুক্ততা, ত্রুটি বা ভুলের অনুপস্থিতি, নির্ভুলতা এবং কপিরাইট ছাড়া অন্য কোনো মেধাসম্পদ অধিকার লঙ্ঘিত না হওয়ার নিশ্চয়তা।
+
+ইচ্ছাকৃত অসদাচরণ বা কোনো প্রাকৃতিক ব্যক্তির (মানুষের) সরাসরি শারীরিক বা ব্যক্তিগত ক্ষতির ক্ষেত্রগুলো ছাড়া, লাইসেন্স প্রদানকারী এই লাইসেন্স বা ‘কর্ম’-এর ব্যবহারের ফলে উদ্ভূত কোনো প্রত্যক্ষ বা পরোক্ষ, বস্তুগত বা নৈতিক ক্ষতির জন্য কোনোভাবেই দায়ী থাকবেন না। এর অন্তর্ভুক্ত বিষয়গুলোর মধ্যে রয়েছে—সুনামহানি, কাজ বন্ধ হয়ে যাওয়া, কম্পিউটারের বিকলতা বা ত্রুটি, তথ্য হারানো বা যেকোনো ধরনের বাণিজ্যিক ক্ষতি; এমনকি যদি লাইসেন্স প্রদানকারীকে এ ধরনের ক্ষতির সম্ভাবনার কথা আগে জানানো হয়ে থাকে, তবুও তিনি দায়ী থাকবেন না। তবে, ‘কর্ম’-এর ক্ষেত্রে প্রযোজ্য বিধিবদ্ধ পণ্য দায়বদ্ধতা আইন-এর অধীনে লাইসেন্স প্রদানকারী দায়বদ্ধ থাকতে পারেন।
+
+EUPL-এর অধীনে লাইসেন্সকৃত।
+</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1074, 538</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>অ্যাপটি সম্পর্কে</value>
+  </data>
+</root>

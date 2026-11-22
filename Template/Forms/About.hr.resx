@@ -117,12 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>O aplikaciji</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 369</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Autorska prava © 2026 NataljaNeumann@gmx.de
+
+Ovaj je program slobodan softver objavljen pod Javnom licencom Europske unije (EUPL). Softver možete sami mijenjati u skladu s uvjetima licence EUPL te postati suradnik dijeljenjem svojih poboljšanja s projektom.
 
 Djelo je „djelo u nastajanju”, koje neprestano poboljšavaju brojni sudionici. Ono nije dovršeno i zato može sadržavati nedostatke ili pogreške koje su svojstvene za tu vrstu razvoja.
 
@@ -132,5 +135,11 @@ Osim u slučaju namjerne povrede ili štete izravno učinjene fizičkim osobama 
 
 Licencirano u skladu s uvjetima EUPL-a.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>734, 387</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>O aplikaciji</value>
   </data>
 </root>

@@ -118,18 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>713, 369</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Tietoja sovelluksesta</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>689, 351</value>
+    <value>769, 368</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Copyright © 2026 NataljaNeumann@gmx.de
+
+See programm on vaba tarkvara, mis on avaldatud Euroopa Liidu avaliku litsentsi (EUPL) alusel. Võite tarkvara EUPL-i tingimuste kohaselt ise muuta ja anda oma panuse, jagades tehtud täiendusi projektiga.
 
 Teos on tekeillä oleva teos, jota lukuisat muut tekijät parantelevat jatkuvasti. Se ei ole viimeistelty teos ja saattaa sen vuoksi sisältää tämänkaltaiselle kehitykselle tunnusomaisia toimintavirheitä (”bugeja”).
 
@@ -139,5 +135,11 @@ Lukuun ottamatta tapauksia, joissa on kyse tahallisesta teosta tai luonnollisill
 
 Lisensoitu EUPL:n nojalla.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>793, 386</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tietoja sovelluksesta</value>
   </data>
 </root>

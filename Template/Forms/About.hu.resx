@@ -118,18 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>719, 370</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Az alkalmazásról</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>695, 352</value>
+    <value>805, 352</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Szerzői jog © 2026 NataljaNeumann@gmx.de
+
+Ez a program szabad szoftver, amely az Európai Unió Nyilvános Licencje (EUPL) alatt jelent meg. Az EUPL feltételei szerint Ön is módosíthatja a szoftvert, és a fejlesztések megosztásával hozzájárulhat a projekt továbbfejlesztéséhez.
 
 A Mű, amelyet számos közreműködő fejleszt, folyamatosan változik. Nem tekinthető befejezett műnek, emiatt az ilyen típusú fejlesztésre jellemző hiányosságokat vagy hibákat tartalmazhat.
 
@@ -139,5 +135,11 @@ A szándékosság vagy a természetes személyeknek okozott közvetlen károkoz�
 
 Licenc az EUPL szerint.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>829, 370</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Az alkalmazásról</value>
   </data>
 </root>

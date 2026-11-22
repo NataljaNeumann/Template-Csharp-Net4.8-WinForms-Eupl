@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1033, 578</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Template v0.0
+မူပိုင်ခွင့် © ၂၀၂၆ NataljaNeumann@gmx.de
+
+ဤပရိုဂရမ်သည် European Union Public Licence (EUPL) အောက်တွင် ထုတ်ပြန်ထားသော အခမဲ့ဆော့ဖ်ဝဲ တစ်ခု ဖြစ်သည်။ သင်သည် EUPL ၏ စည်းကမ်းသတ်မှတ်ချက်များအရ ဤဆော့ဖ်ဝဲကို ကိုယ်တိုင် ပြုပြင်မွမ်းမံနိုင်ပြီး၊ သင်ပြုလုပ်ထားသည့် တိုးတက်ကောင်းမွန်မှုများကို ပရောဂျက်ထံ ပြန်လည်မျှဝေခြင်းအားဖြင့် ဖွံ့ဖြိုးတိုးတက်ရေးတွင် ပါဝင်ကူညီသူတစ်ဦး ဖြစ်လာနိုင်ပါသည်။
+
+ဤဆော့ဖ်ဝဲသည် လက်ရှိတွင် ဆက်လက်လုပ်ဆောင်နေဆဲဖြစ်ပြီး ပါဝင်ကူညီသူများစွာက အစဉ်တစိုက် တိုးတက်ကောင်းမွန်အောင် ပြုလုပ်ပေးလျက်ရှိသည်။ ၎င်းသည် ပြီးပြည့်စုံပြီးသား အရာမဟုတ်သေးသည့်အတွက် ဤကဲ့သို့သော ဖွံ့ဖြိုးတိုးတက်မှုပုံစံမျိုးတွင် ဖြစ်လေ့ရှိသည့် ချို့ယွင်းချက်များ သို့မဟုတ် 'bug' (ဆော့ဖ်ဝဲအမှားအယွင်း) များ ပါဝင်နေနိုင်ပါသည်။
+
+အထက်ဖော်ပြပါ အကြောင်းရင်းများကြောင့်၊ ဤဆော့ဖ်ဝဲကို လက်ရှိအခြေအနေအတိုင်း ပေးအပ်ထားခြင်းဖြစ်ပြီး၊ မည်သည့်အာမခံချက်မျှ ပေးထားခြင်းမရှိပါ။ ၎င်းတွင် ကုန်သွယ်ရောင်းချနိုင်မှု၊ သီးသန့်ရည်ရွယ်ချက်တစ်ခုခုအတွက် သင့်လျော်မှု၊ ချို့ယွင်းချက် သို့မဟုတ် အမှားအယွင်းများ မရှိခြင်း၊ တိကျမှန်ကန်မှု၊ နှင့် မူပိုင်ခွင့်မှလွဲ၍ အခြားသော ဉာဏပစ္စည်းဆိုင်ရာ မူပိုင်ခွင့်များ ကို ချိုးဖောက်ခြင်းမရှိစေရဟူသော အာမခံချက်များ အပါအဝင် မည်သည့်အာမခံချက်မျိုးမျှ မပါဝင်ပါ။
+
+ရည်ရွယ်ချက်ရှိရှိ ကျူးလွန်သော အကျင့်ပျက်မှု သို့မဟုတ် လူပုဂ္ဂိုလ်တစ်ဦးဦးအား တိုက်ရိုက်ထိခိုက်နစ်နာစေမှုများမှလွဲ၍၊ ဤလိုင်စင် သို့မဟုတ် ဖန်တီးမှုလက်ရာ ကို အသုံးပြုခြင်းကြောင့် ပေါ်ပေါက်လာသော မည်သည့်တိုက်ရိုက် သို့မဟုတ် သွယ်ဝိုက်သော၊ ရုပ်ပိုင်းဆိုင်ရာ သို့မဟုတ် ကိုယ်ကျင့်တရားဆိုင်ရာ (သို့မဟုတ် ဂုဏ်သိက္ခာပိုင်းဆိုင်ရာ) ထိခိုက်နစ်နာမှုများအတွက်မဆို လိုင်စင်ပေးသူ အနေဖြင့် မည်သည့်အခြေအနေတွင်မျှ တာဝန်ရှိမည်မဟုတ်ပါ။ ၎င်းတွင် လုပ်ငန်းဂုဏ်သတင်း ကျဆင်းခြင်း၊ လုပ်ငန်းလည်ပတ်မှု ရပ်တန့်သွားခြင်း၊ ကွန်ပျူတာ ချို့ယွင်းပျက်စီးခြင်း၊ အချက်အလက်များ ဆုံးရှုံးခြင်း သို့မဟုတ် စီးပွားရေးဆိုင်ရာ ထိခိုက်နစ်နာမှုများ ပါဝင်နိုင်သော်လည်း ဤစာရင်းသည် အဆိုပါအရာများဖြင့်သာ ကန့်သတ်ထားခြင်း မဟုတ်ပါ။ ထိုသို့သော ထိခိုက်နစ်နာမှုများ ဖြစ်ပေါ်လာနိုင်ကြောင်း လိုင်စင်ပေးသူအား ကြိုတင်အသိပေးထားခဲ့လျှင်ပင် ဤတာဝန်မရှိမှု သဘောတရားမှာ အကျုံးဝင်မည်ဖြစ်သည်။ သို့သော်လည်း၊ ဖန်တီးမှုလက်ရာ နှင့် သက်ဆိုင်သည့် ဥပဒေပြဋ္ဌာန်းချက်များ (ဥပမာ - ထုတ်ကုန်တာဝန်ယူမှုဆိုင်ရာ ဥပဒေများ) ရှိနေပါက၊ ထိုဥပဒေများအရ လိုင်စင်ပေးသူတွင် တာဝန်ရှိလာနိုင်ပါသည်။
+
+ဤလက်ရာကို EUPL လိုင်စင်အောက်တွင် ခွင့်ပြုပေးထားပါသည်။
+</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1066, 604</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>အက်ပ်အကြောင်</value>
+  </data>
+</root>

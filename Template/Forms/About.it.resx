@@ -118,18 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>708, 375</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Informazioni sull'app</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>684, 357</value>
+    <value>771, 377</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Copyright © 2026 NataljaNeumann@gmx.de
+
+Questo programma è un software libero, distribuito secondo i termini della European Union Public Licence (EUPL). È possibile modificare il software, nel rispetto delle condizioni previste dalla EUPL, e diventare collaboratori del progetto condividendo i propri miglioramenti.
 
 L'opera è un'opera in divenire, che viene costantemente migliorata grazie all'apporto di diversi contributori. Non si tratta di un'opera finita e può pertanto contenere difetti o errori inerenti a questo tipo di sviluppo.
 
@@ -139,5 +135,11 @@ Salvi i casi di comportamenti dolosi o di danni direttamente arrecati a persone 
 
 Concesso in licenza a norma dell'EUPL.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>795, 395</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Informazioni sull'app</value>
   </data>
 </root>

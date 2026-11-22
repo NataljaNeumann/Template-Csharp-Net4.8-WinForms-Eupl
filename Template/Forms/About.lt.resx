@@ -117,12 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Apie programėlę</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>678, 373</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Autorių teisės © 2026 NataljaNeumann@gmx.de
+
+Ši programa yra laisvoji programinė įranga, išleista pagal Europos Sąjungos viešąją licenciją (EUPL). Pagal EUPL sąlygas galite patys modifikuoti programinę įrangą ir prisidėti prie projekto, pasidalydami savo atliktais patobulinimais.
 
 Kūrinys vis dar kuriamas, jį nuolat tobulina daug bendraautorių. Jis nėra baigtinis, todėl jame gali būti trūkumų arba programos klaidų, būdingų tokiam kūrimo būdui.
 
@@ -132,5 +135,11 @@ Išskyrus tyčinius nusižengimus arba tiesioginę fiziniams asmenims padarytą 
 
 Licencijuota pagal EUPL.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>702, 391</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Apie programėlę</value>
   </data>
 </root>

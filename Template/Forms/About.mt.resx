@@ -118,18 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>691, 367</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Dwar l-app</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>667, 349</value>
+    <value>767, 369</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Template v0.0
 Drittijiet tal-awtur © 2026 NataljaNeumann@gmx.de
+
+Dan il-programm huwa softwer b’xejn, maħruġ taħt il-Liċenzja Pubblika tal-Unjoni Ewropea (EUPL). Tista’ timmodifika s-softwer int stess skont it-termini tal-EUPL u ssir kontributur billi taqsam it-titjib li tkun għamilt mal-proġett.
 
 Ix-Xogħol huwa xogħol li għadu għaddej, li jittejjeb kontinwament permezz ta' Kontributuri numerużi. Mhuwiex xogħol lest u għalhekk jista' jkollu difetti jew “bugs” inerenti f'dan it-tip ta' żvilupp.
 
@@ -139,5 +135,11 @@ Għajr fil-każijiet ta' kondotta ħażina volontarja jew ta' ħsarat ikkaġunat
 
 Mogħti liċenzja f'konformità mal-EUPL.
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>791, 387</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dwar l-app</value>
   </data>
 </root>
