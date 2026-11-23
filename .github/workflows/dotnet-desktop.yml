@@ -24,6 +24,7 @@ permissions:
 
 jobs:
   build:
+    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
     runs-on: windows-latest
     steps:
       - name: Checkout code
@@ -149,15 +150,15 @@ jobs:
           Add-Content -Path $env:GITHUB_OUTPUT -Value "version=$newVersion"
 
       - name: Setup NuGet
-        uses: NuGet/setup-nuget@v2
+        uses: NuGet/setup-nuget@d105a947828025cd7a980103c35ba2bfae586d0f # v2
 
       - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v2
+        uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2
       #  with:
       #    vs-version: '17.8'
 
       - name: Setup SignTool Path
-        uses: KamaranL/add-signtool-action@v1
+        uses: KamaranL/add-signtool-action@d0027a4cf430f8dfdb15fba53410d0c76b7566f4 # v1
 
       - name: Restore NuGet packages
         run: nuget restore ${{ env.APP_NAME }}.sln
@@ -236,7 +237,7 @@ jobs:
       # Useful parameters: message (commit message), add (files to add), github_token (auth token)
       # Threat: If no files are found, this step will be skipped and no commit will be made.
       - name: Commit version change
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
         if: steps.find_files_to_commit.outputs.files_to_commit != ''
         with:
           message: "Set version to ${{ steps.increment.outputs.version }}"
@@ -386,23 +387,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # ensure history & tags are present
-          # Only run --unshallow if the repo is actually shallow to avoid the harmless fatal
-          if (Test-Path -Path ".git\shallow") {
-            git fetch --unshallow --tags || git fetch --tags
-          } else {
-            git fetch --tags
-          }
+          if ("${{ secrets.GH_TOKEN }}" -neq "")
+          {
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            # ensure history & tags are present
+            # Only run --unshallow if the repo is actually shallow to avoid the harmless fatal
+            if (Test-Path -Path ".git\shallow") {
+              git fetch --unshallow --tags || git fetch --tags
+            } else {
+              git fetch --tags
+            }
 
-          $tag = "$($env:APP_NAME)_v${{ steps.increment.outputs.version }}"
-          if (git rev-parse --verify $tag 2>$null) {
-             Write-Host "Tag $tag already exists; skipping"
-          } else {
-             git tag -a $tag -m "Release $tag"
-             git push origin refs/tags/$tag
-             Write-Host "Created and pushed tag $tag"
+            $tag = "$($env:APP_NAME)_v${{ steps.increment.outputs.version }}"
+            if (git rev-parse --verify $tag 2>$null) {
+               Write-Host "Tag $tag already exists; skipping"
+            } else {
+               git tag -a $tag -m "Release $tag"
+               git push origin refs/tags/$tag
+               Write-Host "Created and pushed tag $tag"
+            }
           }
 
       # Step: Check if a release with the tag already exists using GitHub REST API
